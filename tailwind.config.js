@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'class',
   theme: {
@@ -22,5 +22,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [import('@tailwindcss/typography')],
 };
